@@ -91,7 +91,7 @@ export function FavoritesList() {
         </>
       ) : (
         <p className="text-center text-lg text-muted-foreground">
-          You haven't added any emojis to your favorites yet.
+          You haven&apos;t added any emojis to your favorites yet.
         </p>
       )}
     </div>

@@ -7,7 +7,7 @@ const nextConfig: NextConfig = {
   experimental: {
     // Disable experimental features
   },
-  webpack: (config, { isServer }) => {
+  webpack: (config) => {
     // Disable source maps
     config.devtool = false;
     return config;

@@ -34,7 +34,7 @@ export default function WordCounter() {
         title: 'Text pasted',
         description: 'Text has been pasted from clipboard.',
       })
-    } catch (err) {
+    } catch {
       toast({
         title: 'Error',
         description: 'Failed to paste from clipboard.',
@@ -50,7 +50,7 @@ export default function WordCounter() {
         title: 'Copied!',
         description: 'Text has been copied to clipboard.',
       })
-    } catch (err) {
+    } catch {
       toast({
         title: 'Error',
         description: 'Failed to copy to clipboard.',
